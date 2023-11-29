@@ -4,3 +4,6 @@ from django.http import HttpResponse
 
 def main_index(reqest):
     return HttpResponse('<h4>HELLO</h4>')
+
+def about(reqest):
+    return HttpResponse('<h4>About us</h4>')
