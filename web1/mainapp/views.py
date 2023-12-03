@@ -8,6 +8,11 @@ def main_index(reqest):
 
     return render(reqest, 'mainapp/index.html', {'title': 'Главная страница', 'tasks': task })
 
+
 def about(reqest):
     return render(reqest, 'mainapp/about.html')
+
+
+def create(reqest):
+    return render(reqest, 'mainapp/create.html')
 
