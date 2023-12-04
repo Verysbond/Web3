@@ -7,7 +7,7 @@ from .forms import TaskForm
 def main_index(request):
     task = Task.objects.all()
 
-    return render(request, 'mainapp/index.html', {'title': 'Главная страница', 'tasks': task })
+    return render(request, 'mainapp/index.html', {'title': 'Главная страница', 'tasks': task})
 
 
 def about(request):
